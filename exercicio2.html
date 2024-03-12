@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios 1</title>
+</head>
+
+<body>
+    <script>
+        class Casa {
+            constructor(bairro, preço, metragem) {
+                this.bairro = bairro;
+                this.preço = preço;
+                this.metragem = metragem;
+            }
+            informacoescasa(){
+                return(this.bairro , this.preço , this.metragem)
+            }
+        }
+
+        let casa1 = new Casa('Vale da lua', 150.000, 56);
+
+        console.log(`${casa1.informacoescasa()}`);
+
+</script>
+</body>
